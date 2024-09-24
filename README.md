@@ -19,7 +19,7 @@ From US Census population estimates:
 * 7/1/2019 population estimate - Annual estimate of resident population from 2019.
 
 From US Census median household income data:
-* Median income (dollars)!!!Estimate - Median household income estimate in dollars by Massachusetts counties.
+* Median income (dollars)!!!Estimate - Median household income estimate by Massachusetts counties as of 2019.
 
 From Wikipedia list of counties: 
 * Area: Area of Massachusetts counties by square mile.
