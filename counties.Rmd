@@ -1,0 +1,26 @@
+---
+title: "Data Scraping"
+output: html_notebook
+---
+
+Code to download the list of Massachusetts counties from Wikipedia:
+
+```{r}
+library(XML)
+library(RCurl)
+
+# URL
+wikiLink = "https://en.wikipedia.org/wiki/List_of_counties_in_Massachusetts"
+
+# Data
+wikiLinkContents = getURL(wikiLink)
+wikiTables = readHTMLTable(wikiLinkContents,header = T,
+                           stringsAsFactors=FALSE)
+```
+
+Code to chose the particular table that includes the counties:
+
+```{r}
+countyList = wikiTables[[2]] ## the second table
+str(countyList) ## to see the contents
+```
