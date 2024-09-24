@@ -1,6 +1,6 @@
 # This is the first deliverable for DACSS 690R
 
-Data in the repo contains information on Massachusetts population size by county, the median household income by county, and county size in square miles.
+Data in the repo contains the size of Massachusetts populations by county, the median household income in each county, and county size in square miles.
 
 ## Codes in the repo:
 
